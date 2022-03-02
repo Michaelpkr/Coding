@@ -1,0 +1,27 @@
+Distributed Computing
+    One master file, that everyone pulls from, works on, and then pushes back to the master file.
+
+
+
+
+<h1>Git Commands</h1>
+
+Git Init
+Git Add
+Git Commit
+Git Status
+
+<h1>Timeline<h1>
+
+Download file
+Make Changes
+Commit Changes
+Push to Remote
+
+Then Code Review Happens
+
+Then the Branch is pushed to Master.
+
+
+<h1>Branches<h1>
+
