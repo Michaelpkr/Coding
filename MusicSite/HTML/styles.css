@@ -88,7 +88,7 @@ footer {
 
 .releases {
     max-width: 800px;
-    height: 400px;
+    height: 600px;
     padding: 20px;
     display: inline-block;
 }
@@ -99,7 +99,7 @@ footer {
 /*******************************************/
 
 img {
-    width: 400px;
+    width: 500px;
     border: 3px white solid;
     padding: 20px;
 }
