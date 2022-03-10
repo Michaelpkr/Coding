@@ -1,9 +1,12 @@
 /* Box Model Hack */
+
 * {
     box-sizing: border-box;
 }
 
+
 /* Clear fix hack */
+
 .clearfix:after {
     content: ".";
     display: block;
@@ -14,24 +17,31 @@
 }
 
 .clear {
-   clear: both;
+    clear: both;
 }
+
 
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    font-family: 'Bebas Neue', cursive; Arial;
+    font-family: 'Bebas Neue', cursive;
+    Arial;
     background-color: lightskyblue;
-   
+    margin: 0%;
 }
 
 h1 {
     font-size: 48px;
     color: rgba(5, 12, 43, 0.459);
     font-weight: 600;
-    letter-spacing: 3px;   
+    letter-spacing: 3px;
 }
 
 h2 {
@@ -41,8 +51,8 @@ h2 {
     letter-spacing: 3px;
 }
 
-ul li{
-    border: 5px solid white;
+ul li {
+    border: 2px solid white;
     background-color: aquamarine;
     display: inline-block;
     padding: 0 10;
@@ -51,7 +61,6 @@ ul li{
 a {
     font-size: 30px;
     text-decoration: none;
-
 }
 
 a:hover {
@@ -67,22 +76,23 @@ a::after {
 /* LAYOUT
 /*******************************************/
 
-header{
+header {
     background-color: rgba(144, 238, 144, 0.196);
     height: 200px;
 }
 
-footer{
+footer {
     background-color: rgba(144, 238, 144, 0.196);
     height: 200px;
 }
 
-.releases{
+.releases {
     max-width: 800px;
     height: 400px;
     padding: 20px;
     display: inline-block;
 }
+
 
 /******************************************
 /* ADDITIONAL STYLES
