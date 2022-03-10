@@ -33,8 +33,9 @@
 body {
     font-family: 'Bebas Neue', cursive;
     Arial;
-    background-color: lightskyblue;
+    background-color: rgba(106, 196, 181, 0.196);
     margin: 0%;
+    max-width: 0 auto;
 }
 
 h1 {
@@ -51,13 +52,6 @@ h2 {
     letter-spacing: 3px;
 }
 
-ul li {
-    border: 2px solid white;
-    background-color: aquamarine;
-    display: inline-block;
-    padding: 0 10;
-}
-
 a {
     font-size: 30px;
     text-decoration: none;
@@ -68,7 +62,7 @@ a:hover {
 }
 
 a::after {
-    color: blue;
+    color: black;
 }
 
 
@@ -77,8 +71,7 @@ a::after {
 /*******************************************/
 
 header {
-    background-color: rgba(144, 238, 144, 0.196);
-    height: 200px;
+    background: linear-gradient( rgba(144, 238, 144, 0.196), rgba(144, 238, 144, 0.196));
 }
 
 footer {
@@ -86,11 +79,61 @@ footer {
     height: 200px;
 }
 
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navitems {
+    display: flex;
+    list-style-type: none;
+    padding-inline-end: 20px;
+}
+
+.navitems a {
+    border: 1px rgba(135, 206, 250, 0.418) solid;
+    padding: 10px 20px 10px 20px;
+    background-color: rgba(255, 255, 255, 0.521);
+    color: rgba(5, 12, 43, 0.459)
+}
+
+.navitems a:hover {
+    color: gray;
+}
+
+.logo {
+    font-size: 60px;
+    color: rgba(54, 73, 156, 0.459);
+    font-weight: 600;
+    letter-spacing: 10px;
+    display: flex;
+    padding-left: 20px;
+}
+
 .releases {
-    max-width: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     height: 600px;
-    padding: 20px;
-    display: inline-block;
+    border: 3px rgba(255, 255, 255, 0.719) solid;
+    margin: auto 0;
+}
+
+.releaseitems {
+    display: flex;
+    align-items: center;
+    padding-inline-end: 20px;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-top: 3px rgba(255, 255, 255, 0.719) solid;
+    padding-left: 20px;
+    margin-top: 20px;
 }
 
 
@@ -98,8 +141,7 @@ footer {
 /* ADDITIONAL STYLES
 /*******************************************/
 
-img {
+.releases img {
     width: 500px;
-    border: 3px white solid;
-    padding: 20px;
+    padding: 0px 20px;
 }
