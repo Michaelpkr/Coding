@@ -141,13 +141,21 @@ footer {
     font-weight: 600;
     letter-spacing: 3px;
     padding: 50px 0;
-    text-align: left;
+    align-items: center;
+    display: flex;
 }
 
 .dissectitems {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex: 1;
+}
+
+.dissecttrackobject {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
     flex: 1;
 }
 
