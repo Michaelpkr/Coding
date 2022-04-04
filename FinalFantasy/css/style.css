@@ -33,10 +33,13 @@ ul {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    flex: 1 1 auto;
 }
 
-li {
-    border: black 1px solid;
+ul img{
+    width: auto;
 }
 
 

@@ -6,7 +6,7 @@ document.getElementById('FF5').onclick = ff5Background
 
 
 function ff1Background() {
-    document.body.style.backgroundImage = "url('/Users/michael.parker/Desktop/class12-materials/background-picker/img/ff1BackgroundIMG.png')";
+    document.body.style.backgroundImage = "url('/Users/michaelparker/Documents/Coding/FinalFantasy/img/ff1BackgroundIMG.png')";
     document.querySelector('body').style.color = 'white';
 }
 
