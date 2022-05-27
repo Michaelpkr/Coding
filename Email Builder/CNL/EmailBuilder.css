@@ -1,0 +1,15 @@
+h1 {
+    color: #0073b9;
+}
+
+h2 {
+    display: flex;
+    width: 50%;
+    border: black 2px solid;
+    margin: 0 auto;
+}
+
+form {
+    display: flex;
+    margin: 0 auto;
+}
