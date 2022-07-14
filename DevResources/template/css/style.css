@@ -22,7 +22,16 @@
 /*******************************************/
 
 body {
+}
 
+main, .bottom{
+     display: flex;
+}
+
+section{
+     flex: 1;
+     height: 200px;
+     border: 1px solid black;
 }
 
 
@@ -30,11 +39,13 @@ body {
 /* LAYOUT
 /*******************************************/
 header {
-
+     border: 1px solid black;
+     height: 200px;
 }
 
 footer {
-
+     border: 1px solid black;
+     height: 200px;
 }
 
 /******************************************
