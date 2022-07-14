@@ -1,0 +1,13 @@
+What if we named all of our classes in the standard template in a human-friendly way? Similar to the way the coding language ruby is a very "human readable" language. When laying out our classes in an email, it could look something like:
+
+<div class="uppercase heading centered"></div>
+
+<a class="bold RamseyPlusLink" href="placeholder.com">Click Here</a>
+
+<div class="logo centered"></div>
+
+<div class="left-aligned logo"></div>
+
+We could have a common way of "speaking" in our code, and a format in which we lay out our classes. With this, you could actually "speak" your way through your email build. 
+
+Example: "Here, I need a centered hero" or "Here, I need a left-aligned logo" or "I need linked RamseyPlus-style body-text"

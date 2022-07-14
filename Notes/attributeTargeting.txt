@@ -1,0 +1,7 @@
+In our email design system, we could target BU-specific links, and style them according to that BU's style guide. For example:
+
+a[href*='ramsey-trusted'] {
+  color: orange;
+}
+
+What this means is that any type 'ramsey-trusted' appears in a link, it would automatically color it Trusted Orange (Whatever that hex code is).
